@@ -1,0 +1,27 @@
+.nav {
+    display: none; /* initially hide the navigation */
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #f9f9f9;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .nav.active {
+    display: block; /* show the navigation when .active class is applied */
+  }
+  .toggle-btn {
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .nav ul li {
+    list-style: none;
+    padding: 5px;
+  }
+  .nav ul li a {
+    text-decoration: none;
+  }
